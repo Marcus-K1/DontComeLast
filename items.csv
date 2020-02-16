@@ -1,294 +1,294 @@
-Item Name,Item Type,Item Price,Store Name,Dietary Restrictions,,,
-vitamin water,Cold Beverages,2.53,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,Lactose Free 
-powerade,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,Nut Free
-monster energy,Cold Beverages,3.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,Halal
-white milk,Cold Beverages,2.29,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,Seafood Free
-chocolate milk,Cold Beverages,2.29,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,Gluten Free
-water,Cold Beverages,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,Vegetarian
-pop can,Cold Beverages,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,Vegan
-pop bottle,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-juice,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-small coffee,Hot Beverages,1.34,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-medium coffee,Hot Beverages,1.58,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-large coffee,Hot Beverages,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-extra large coffee,Hot Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-small hot chocolate,Hot Beverages,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium hot chocolate,Hot Beverages,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large hot chocolate,Hot Beverages,2.14,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-extra large hot chocolate,Hot Beverages,2.53,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-tea,Hot Beverages,1.58,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-banana bread,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,,
-pineapple vanilla bread,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,,
-apple cranberry bread ,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,,
-carrot loaf,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,,
-white chocolate macadamia nut cookie,Baked goods,1.1,Bake Chef,Halal; Seafood Free; Vegetarian;,,,
-iq cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-double white cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-oatmeal chocolate chip cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-chocolate chip cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-ginger snap cookie,Baked goods,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-banana chocolate chip muffin,Baked goods,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-rasberry muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-banana muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-chocolate chip muffin,Baked goods,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-carrot bran muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-coffee cake muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-pepperoni pizza stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,,
-ham and cheese stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,,
-hot dog stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,,
-cheese stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Halal; Seafood Free; Vegetarian,,,
-tuna melt stuff bun,Baked goods,3.25,Bake Chef,Nut Free; ,,,
-chicken stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free;,,,
-banana,Snacks,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-sausage roll,Snacks,2.77,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,,
-pretzel,Snacks,2.53,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-hawaiian pizza,Pizza,4.44,Bake Chef,Nut Free;Seafood Free;,,,
-veggie pizza,Pizza,4.44,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-pizza pretzel,Snacks,2.69,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-rice krispy,Snacks,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-cheese croissant,Baked goods,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-brownie,Baked goods,2.75,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-carrot cake,Baked goods,2.75,Bake Chef,Halal; Seafood Free;Vegetarian;,,,
-energy bar,Snacks,2.53,Bake Chef,Halal; Gluten Free Seafood Free;Vegetarian;,,,
-danish,Baked goods,2.15,Bake Chef,Halal; Gluten Free Seafood Free;Vegetarian;,,,
-spicy beef sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,,
-beef satay sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,,
-chicken satay sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,,
-roasted chicken sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,,
-turkey breast sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,,
-tuna sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; ,,,
-tofu sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-pizza sub,Subs,6.67,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-vietnam deli sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free;Seafood Free,,,
-spolumbo chicken apple sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,,
-black forest ham and egg sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,,
-veggie with cheese sub,Subs,5.72,Bake Chef,Nut Free; Halal;Vegetarian; Seafood Free,,,
-baked salmon sub,Subs,8.57,Bake Chef,"Lactose Free,Nut Free;",,,
-halal beef sub,Subs,8.57,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;,,,
-halal beef sub,Subs,8.57,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;,,,
-pop bottle,Cold Beverages,2.65,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-pop can,Cold Beverages,1.67,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-wonton soup,Soups,4,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-small wonton noodle soup,Soups,7.15,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-large wonton noodle soup,Soups,8.1,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-small beef noodle soup,Soups,8.2,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-large beef noodle soup,Soups,10.25,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-small shrimp noodle soup,Soups,8.2,Oriental Wok,Lactose Free; Nut Free;,,,
-large shrimp noodle soup,Soups,10.25,Oriental Wok,Lactose Free; Nut Free;,,,
-small chicken noodle soup,Soups,7.15,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-large chicken noodle soup,Soups,8.1,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,,
-rice and chowmein plus 1 item combo,Combo,8.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-rice and chowmein plus 2 item combo,Combo,9.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-rice and chowmein plus 3 item combo,Combo,10.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-choose two special,Combo,3.7,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,"fried rice, chowmein, spring roll, 2 dumplings choose 2 items",,
-small fountain drink,Cold Beverages,2.09,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-regular fountain drink,Cold Beverages,2.29,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-small lemonade,Cold Beverages,2.39,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-large lemonade,Cold Beverages,2.79,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-teen burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-double teen burger,Burgers,7.99,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-mozza burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-double mozza burger,Burgers,7.99,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-beyond meat burger,Burgers,6.99,A & W,Lactose Free; Nut Free; Halal;Seafood Free; Vegetarian,add $4 for a drink and fries combo ,,
-uncle burger,Burgers,8.49,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-momma burger,Burgers,5.19,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-papa burger,Burgers,6.49,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-grandpa burger,Burgers,7.79,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-chubby chicken burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-spicy habenero burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-blt chicken burger,Burgers,7.29,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-buddy burger,Burgers,1.99,A & W,Lactose Free; Nut Free; Seafood Free;,With real cheddar for $2.74,,
-double buddy burger,Burgers,2.99,A & W,Lactose Free; Nut Free; Seafood Free;,With real cheddar for $3.74,,
-chicken buddy burger,Burgers,2.59,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-double chicken buddy burger,Burgers,3.59,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-3 chicken strips,Snacks,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-5 chicken strips,Snacks,8.89,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,,
-fries,Snacks,2.99,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-onion rings,Snacks,4.19,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-sweet potato fries,Snacks,3.49,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-poutine,Snacks,4.99,A & W,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-hot apple turnover,Sweets,1,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-hot peach turnover,Sweets,1,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-root beer float,Sweets,3.29,A & W,Nut Free; Halal; Seafood Free;Vegetarian;,,,
-english muffin sausage and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-english muffin bacon and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-sausage and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-bacon and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,,
-english muffin beyond meat sausage and egger,Breakfast,5.39,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small caramel macchiato espresso,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium caramel macchiato espresso,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large caramel macchiato espresso,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small toffee nut latte,Hot Beverages,4.35,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-meduim toffee nut latte,Hot Beverages,4.95,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large toffee nut latte,Hot Beverages,5.35,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small hedge hog latte,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium hedge hog latte,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large hedge hog latte,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small irish cream cappaccino,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium irish cream cappaccino,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large irish cream cappaccino,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small raspberry white choco mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium raspberry white choco mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large raspberry white choco mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small german mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium german mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large german mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small coffee mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium coffee mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large coffee mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small latte/ cappaccino,Hot Beverages,3.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium latte/ cappaccino,Hot Beverages,4.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large latte/ cappaccino,Hot Beverages,4.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small americano,Hot Beverages,2.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium americano,Hot Beverages,3.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large americano,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-single shot espresso,Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-double shot espresso,Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small steeped tea,Hot Beverages,1.75,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-medium steeped tea,Hot Beverages,2,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-large steeped tea,Hot Beverages,2.25,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-organic full leaf tea,Hot Beverages,2.5,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-stash tea,Hot Beverages,2,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-medium honey tea,Hot Beverages,3.5,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large honey tea,Hot Beverages,4,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,Availabe in three flavours citron ginger and grape fruit,,
-small mild/dark/flavoured brewed coffee,Hot Beverages,2.1,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-medium mild/dark/flavoured brewed coffee,Hot Beverages,2.5,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-large mild/dark/flavoured brewed coffee,Hot Beverages,2.8,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-small java jolt brewed coffee,Hot Beverages,2.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,,
-medium java jolt brewed coffee,Hot Beverages,3.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,,
-large java jolt brewed coffee,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,,
-small café misto brewed coffee,Hot Beverages,2.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,,
-medium café misto brewed coffee,Hot Beverages,3.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,,
-large café misto brewed coffee,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,,
-small half mocha,Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,,
-medium half mocha,Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,,
-large half mocha,Hot Beverages,2.9,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,,
-small cocoa (milk),Hot Beverages,3.65,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-medium cocoa (milk),Hot Beverages,3.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-large cocoa (milk),Hot Beverages,4.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-small chocolate (h20),Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-medium chocolate (h20),Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-large chocolate (h20),Hot Beverages,2.9,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-small french vanilla ,Hot Beverages,2.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-medium french vanilla ,Hot Beverages,2.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-large french vanilla ,Hot Beverages,3.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-london fog tea latte,Hot Beverages,4.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-matcha tea,Hot Beverages,4.15,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-chai tea,Hot Beverages,4.15,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-milk tea,Cold Beverages,4.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-coffee frapp,Cold Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-mocha frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-chocolate chai frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-english toffee frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-choco banana frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-raspberry frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-match green tea frapp,Cold Beverages,5.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-frozen hot chocolate,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-iced caramel macchiato,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-iced white chocolate,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-iced americano,Cold Beverages,3.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-iced coffee,Cold Beverages,3.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-iced honey tea,Cold Beverages,4.25,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-bbq beef combo,Lunch/korean/bbq,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq spicy beef combo,Lunch/korean/bbq,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken combo,Lunch/korean/bbq,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq spicy chicken combo,Lunch/korean/bbq,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq short ribs combo,Lunch/korean/bbq,12.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq spicy short ribs combo,Lunch/korean/bbq,12.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken and beef combo,Lunch/korean/bbq,11.38,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq spicy chicken and beef combo,Lunch/korean/bbq,11.38,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq salmon and shrimp combo,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq basa fillet and shrimp,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq shrimp dinner,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq beef noodle salad,Salad,11.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken noodle salad,Salad,11.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq beef and chicken noodle salad,Salad,11.69,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq shrimp noodle salad,Seafood/salad,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq beef curry,Seafood/curry,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken curry,Seafood/curry,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq shrimp curry,Seafood/curry,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq beef salad,Salad,11.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken salad,Salad,11.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq beef and chicken salad,Salad,11.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq shrimp salad,Seafood/salad,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq beef noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq seafood noodle soup,Soups,11.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,,
-bbq spicy beef noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq spicy chicken noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq skewed beef,BBQ,11.79,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq skewed chicken breast,BBQ,11.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq beef wrap,Wraps,9.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-bbq chicken wrap,Wraps,9.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-pop bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-iced tea bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-juice bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-gatorade,Cold Beverages,2.75,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-monster energy,Cold Beverages,3.5,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-famous star burger,Burgers,5.49,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-western bacon burger,Burgers,6.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-portobello burger,Burgers,7.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-superstar burger,Burgers,7.39,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-hawaiian burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-the big carl burger,Burgers,7.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-original angus burger,Burgers,7.69,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-western bacon angus burger,Burgers,8.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-el diablo angus burger,Burgers,8.59,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-guacamole bacon angus burger,Burgers,8.29,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-super bacon angus burger,Burgers,8.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-lettuce wrap angus burger,Burgers,7.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;Gluten Free,add $4 for a combo which includes a medium drink and fries,,
-chicken club burger,Burgers,6.89,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-hawaiian chicken burger,Burgers,6.49,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-lettuce wrap chicken club burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free; Gluten Free,add $4 for a combo which includes a medium drink and fries,,
-honey mustard fillet chicken burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-buttermilk ranch fillet chicken burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-bacon swiss crispy fillet chicken burger,Burgers,7.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-3 piece chicken tenders,Snacks,5.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-5 piece chicken tenders,Snacks,7.29,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,,
-small original blend dark roast,Hot Beverages,1.54,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in decaf,,
-medium original blend dark roast,Hot Beverages,1.76,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large original blend dark roast,Hot Beverages,1.92,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-x-large original blend dark roast,Hot Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small steeped tea,Hot Beverages,1.54,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-medium steeped tea,Hot Beverages,1.76,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-large steeped tea,Hot Beverages,1.92,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-x-large steeped tea,Hot Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-small hot chocolate,Hot Beverages,1.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium hot chocolate,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large hot chocolate,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-x-large hot chocolate,Hot Beverages,2.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small french vanilla ,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium french vanilla ,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large french vanilla ,Hot Beverages,2.49,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-x-large french vanilla ,Hot Beverages,2.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small coffee mocha,Hot Beverages,1.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-medium coffee mocha,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-large coffee mocha,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-x-large coffee mocha,Hot Beverages,2.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-small premium icecapp,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",,
-medium premium icecapp,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",,
-large premium icecapp,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",,
-small classic icecapp,Cold Beverages,2.49,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,,
-medium classic icecapp,Cold Beverages,2.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,,
-large classic icecapp,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,,
-small creamy chill,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,,
-medium creamy chill,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,,
-large creamy chill,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,,
-small smoothie,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",,
-medium smoothie,Cold Beverages,3.59,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",,
-large smoothie,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",,
-small frozen lemonade,Cold Beverages,1.79,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,available in original and raspberry,,
-medium frozen lemonade,Cold Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-large frozen lemonade,Cold Beverages,2.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-pop bottle,Cold Beverages,2.49,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,"coke, sprite and canada dry available",,
-white milk,Cold Beverages,1.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-chocolate milk,Cold Beverages,1.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,,
-juice bottle,Cold Beverages,1.99,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,apple and orange available,,
-spicy thai soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,,
-harvest vegetable soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-tomato parmesan soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,,
-chili ,Soups,4.79,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free,,,
-potato wedges,Snacks,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,,
-hash brown,Snacks,1.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,,
-classic bagel,Snacks,1.49,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian,add cream cheese for $0.80,,
-speciality bagel,Snacks,1.99,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian,add cream cheese for $0.80,,
+Item Name,Item Type,Item Price,Store Name,Dietary Restrictions,,Icon Location
+vitamin water,Cold Beverages,2.53,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+powerade,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+monster energy,Cold Beverages,3.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+white milk,Cold Beverages,2.29,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+chocolate milk,Cold Beverages,2.29,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+water,Cold Beverages,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+pop can,Cold Beverages,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+pop bottle,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+juice,Cold Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+small coffee,Hot Beverages,1.34,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+medium coffee,Hot Beverages,1.58,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+large coffee,Hot Beverages,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+extra large coffee,Hot Beverages,2.29,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+small hot chocolate,Hot Beverages,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium hot chocolate,Hot Beverages,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large hot chocolate,Hot Beverages,2.14,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+extra large hot chocolate,Hot Beverages,2.53,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+tea,Hot Beverages,1.58,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+banana bread,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,images/baked good.png
+pineapple vanilla bread,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,images/baked good.png
+apple cranberry bread ,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,images/baked good.png
+carrot loaf,Baked goods,2.05,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free; Vegetarian;Vegan,,images/baked good.png
+white chocolate macadamia nut cookie,Baked goods,1.1,Bake Chef,Halal; Seafood Free; Vegetarian;,,images/baked good.png
+iq cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+double white cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+oatmeal chocolate chip cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+chocolate chip cookie,Baked goods,1.1,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+ginger snap cookie,Baked goods,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+banana chocolate chip muffin,Baked goods,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+rasberry muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+banana muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+chocolate chip muffin,Baked goods,1.82,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+carrot bran muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+coffee cake muffin,Baked goods,1.82,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+pepperoni pizza stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,images/baked good.png
+ham and cheese stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,images/baked good.png
+hot dog stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free,,images/baked good.png
+cheese stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Halal; Seafood Free; Vegetarian,,images/baked good.png
+tuna melt stuff bun,Baked goods,3.25,Bake Chef,Nut Free; ,,images/baked good.png
+chicken stuff bun,Baked goods,3.25,Bake Chef,Nut Free; Seafood Free;,,images/baked good.png
+banana,Snacks,1.1,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/snack.png
+sausage roll,Snacks,2.77,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,images/snack.png
+pretzel,Snacks,2.53,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/snack.png
+hawaiian pizza,Pizza,4.44,Bake Chef,Nut Free;Seafood Free;,,images/pizza.png
+veggie pizza,Pizza,4.44,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/pizza.png
+pizza pretzel,Snacks,2.69,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/snack.png
+rice krispy,Snacks,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/snack.png
+cheese croissant,Baked goods,2.05,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+brownie,Baked goods,2.75,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/baked good.png
+carrot cake,Baked goods,2.75,Bake Chef,Halal; Seafood Free;Vegetarian;,,images/baked good.png
+energy bar,Snacks,2.53,Bake Chef,Halal; Gluten Free Seafood Free;Vegetarian;,,images/snack.png
+danish,Baked goods,2.15,Bake Chef,Halal; Gluten Free Seafood Free;Vegetarian;,,images/baked good.png
+spicy beef sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,images/sub.png
+beef satay sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,images/sub.png
+chicken satay sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,images/sub.png
+roasted chicken sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,images/sub.png
+turkey breast sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free; Seafood Free;,,images/sub.png
+tuna sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free; ,,images/sub.png
+tofu sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/sub.png
+pizza sub,Subs,6.67,Bake Chef,Nut Free; Halal; Seafood Free;Vegetarian;,,images/sub.png
+vietnam deli sub,Subs,6.67,Bake Chef,Lactose Free; Nut Free;Seafood Free,,images/sub.png
+spolumbo chicken apple sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,images/sub.png
+black forest ham and egg sub,Subs,7.63,Bake Chef,Lactose Free; Nut Free;Seafood Free;,,images/sub.png
+veggie with cheese sub,Subs,5.72,Bake Chef,Nut Free; Halal;Vegetarian; Seafood Free,,images/sub.png
+baked salmon sub,Subs,8.57,Bake Chef,"Lactose Free,Nut Free;",,images/sub.png
+halal beef sub,Subs,8.57,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;,,images/sub.png
+halal beef sub,Subs,8.57,Bake Chef,Lactose Free; Nut Free; Halal; Seafood Free;,,images/sub.png
+pop bottle,Cold Beverages,2.65,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+pop can,Cold Beverages,1.67,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+wonton soup,Soups,4,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+small wonton noodle soup,Soups,7.15,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+large wonton noodle soup,Soups,8.1,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+small beef noodle soup,Soups,8.2,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+large beef noodle soup,Soups,10.25,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+small shrimp noodle soup,Soups,8.2,Oriental Wok,Lactose Free; Nut Free;,,images/soup.png
+large shrimp noodle soup,Soups,10.25,Oriental Wok,Lactose Free; Nut Free;,,images/soup.png
+small chicken noodle soup,Soups,7.15,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+large chicken noodle soup,Soups,8.1,Oriental Wok,Lactose Free; Nut Free;Seafood Free;,,images/soup.png
+rice and chowmein plus 1 item combo,Combo,8.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/combo.png
+rice and chowmein plus 2 item combo,Combo,9.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/combo.png
+rice and chowmein plus 3 item combo,Combo,10.85,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/combo.png
+choose two special,Combo,3.7,Oriental Wok,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,"fried rice, chowmein, spring roll, 2 dumplings choose 2 items",images/combo.png
+small fountain drink,Cold Beverages,2.09,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+regular fountain drink,Cold Beverages,2.29,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+small lemonade,Cold Beverages,2.39,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+large lemonade,Cold Beverages,2.79,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+teen burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+double teen burger,Burgers,7.99,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+mozza burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+double mozza burger,Burgers,7.99,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+beyond meat burger,Burgers,6.99,A & W,Lactose Free; Nut Free; Halal;Seafood Free; Vegetarian,add $4 for a drink and fries combo ,images/burger.png
+uncle burger,Burgers,8.49,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+momma burger,Burgers,5.19,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+papa burger,Burgers,6.49,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+grandpa burger,Burgers,7.79,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+chubby chicken burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+spicy habenero burger,Burgers,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+blt chicken burger,Burgers,7.29,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/burger.png
+buddy burger,Burgers,1.99,A & W,Lactose Free; Nut Free; Seafood Free;,With real cheddar for $2.74,images/burger.png
+double buddy burger,Burgers,2.99,A & W,Lactose Free; Nut Free; Seafood Free;,With real cheddar for $3.74,images/burger.png
+chicken buddy burger,Burgers,2.59,A & W,Lactose Free; Nut Free; Seafood Free;,,images/burger.png
+double chicken buddy burger,Burgers,3.59,A & W,Lactose Free; Nut Free; Seafood Free;,,images/burger.png
+3 chicken strips,Snacks,6.69,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/snack.png
+5 chicken strips,Snacks,8.89,A & W,Lactose Free; Nut Free; Seafood Free;,add $4 for a drink and fries combo ,images/snack.png
+fries,Snacks,2.99,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/snack.png
+onion rings,Snacks,4.19,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/snack.png
+sweet potato fries,Snacks,3.49,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/snack.png
+poutine,Snacks,4.99,A & W,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/sweet.png
+hot apple turnover,Sweets,1,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/sweet.png
+hot peach turnover,Sweets,1,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/sweet.png
+root beer float,Sweets,3.29,A & W,Nut Free; Halal; Seafood Free;Vegetarian;,,images/sweet.png
+english muffin sausage and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,images/breakfast.png
+english muffin bacon and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,images/breakfast.png
+sausage and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,images/breakfast.png
+bacon and egger,Breakfast,4.39,A & W,Lactose Free; Nut Free; Seafood Free;,,images/breakfast.png
+english muffin beyond meat sausage and egger,Breakfast,5.39,A & W,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/breakfast.png
+small caramel macchiato espresso,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium caramel macchiato espresso,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large caramel macchiato espresso,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small toffee nut latte,Hot Beverages,4.35,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+meduim toffee nut latte,Hot Beverages,4.95,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large toffee nut latte,Hot Beverages,5.35,Coffee Company,Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small hedge hog latte,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium hedge hog latte,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large hedge hog latte,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small irish cream cappaccino,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium irish cream cappaccino,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large irish cream cappaccino,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small raspberry white choco mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium raspberry white choco mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large raspberry white choco mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small german mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium german mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large german mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small coffee mocha,Hot Beverages,4.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium coffee mocha,Hot Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large coffee mocha,Hot Beverages,5.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small latte/ cappaccino,Hot Beverages,3.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium latte/ cappaccino,Hot Beverages,4.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large latte/ cappaccino,Hot Beverages,4.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small americano,Hot Beverages,2.85,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium americano,Hot Beverages,3.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large americano,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+single shot espresso,Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+double shot espresso,Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small steeped tea,Hot Beverages,1.75,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+medium steeped tea,Hot Beverages,2,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+large steeped tea,Hot Beverages,2.25,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+organic full leaf tea,Hot Beverages,2.5,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+stash tea,Hot Beverages,2,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+medium honey tea,Hot Beverages,3.5,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large honey tea,Hot Beverages,4,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,Availabe in three flavours citron ginger and grape fruit,images/hot beverage.png
+small mild/dark/flavoured brewed coffee,Hot Beverages,2.1,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+medium mild/dark/flavoured brewed coffee,Hot Beverages,2.5,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+large mild/dark/flavoured brewed coffee,Hot Beverages,2.8,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+small java jolt brewed coffee,Hot Beverages,2.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,images/hot beverage.png
+medium java jolt brewed coffee,Hot Beverages,3.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,images/hot beverage.png
+large java jolt brewed coffee,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,espresso and coffee,images/hot beverage.png
+small café misto brewed coffee,Hot Beverages,2.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,images/hot beverage.png
+medium café misto brewed coffee,Hot Beverages,3.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,images/hot beverage.png
+large café misto brewed coffee,Hot Beverages,3.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and steamed milk,images/hot beverage.png
+small half mocha,Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,images/hot beverage.png
+medium half mocha,Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,images/hot beverage.png
+large half mocha,Hot Beverages,2.9,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,coffee and chocolate,images/hot beverage.png
+small cocoa (milk),Hot Beverages,3.65,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+medium cocoa (milk),Hot Beverages,3.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+large cocoa (milk),Hot Beverages,4.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+small chocolate (h20),Hot Beverages,2.3,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+medium chocolate (h20),Hot Beverages,2.6,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+large chocolate (h20),Hot Beverages,2.9,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+small french vanilla ,Hot Beverages,2.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+medium french vanilla ,Hot Beverages,2.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+large french vanilla ,Hot Beverages,3.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+london fog tea latte,Hot Beverages,4.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/hot beverage.png
+matcha tea,Hot Beverages,4.15,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+chai tea,Hot Beverages,4.15,Coffee Company,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+milk tea,Cold Beverages,4.15,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+coffee frapp,Cold Beverages,4.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+mocha frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+chocolate chai frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+english toffee frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+choco banana frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+raspberry frapp,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+match green tea frapp,Cold Beverages,5.75,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+frozen hot chocolate,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+iced caramel macchiato,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+iced white chocolate,Cold Beverages,5.45,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+iced americano,Cold Beverages,3.95,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+iced coffee,Cold Beverages,3.35,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+iced honey tea,Cold Beverages,4.25,Coffee Company,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/cold beverage.png
+bbq beef combo,BBQ,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq spicy beef combo,BBQ,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq chicken combo,BBQ,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq spicy chicken combo,BBQ,10.95,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq short ribs combo,BBQ,12.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq spicy short ribs combo,BBQ,12.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq chicken and beef combo,BBQ,11.38,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq spicy chicken and beef combo,BBQ,11.38,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq salmon and shrimp combo,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/seafood.png
+bbq basa fillet and shrimp,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/seafood.png
+bbq shrimp dinner,Seafood,13.59,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/seafood.png
+bbq beef noodle salad,Salad,11.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq chicken noodle salad,Salad,11.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq beef and chicken noodle salad,Salad,11.69,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq shrimp noodle salad,Seafood,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/salad.png
+bbq beef curry,Seafood,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/seafood.png
+bbq chicken curry,Seafood,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/seafood.png
+bbq shrimp curry,Seafood,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/seafood.png
+bbq beef salad,Salad,11.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq chicken salad,Salad,11.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq beef and chicken salad,Salad,11.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/salad.png
+bbq shrimp salad,Seafood,13.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/salad.png
+bbq beef noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/soup.png
+bbq chicken noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/soup.png
+bbq seafood noodle soup,Soups,11.29,Korean BBQ House,Lactose Free; Nut Free;Gluten Free; ,,images/soup.png
+bbq spicy beef noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/soup.png
+bbq spicy chicken noodle soup,Soups,10.19,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/soup.png
+bbq skewed beef,BBQ,11.79,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq skewed chicken breast,BBQ,11.99,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/bbq.png
+bbq beef wrap,Wraps,9.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/wrap.png
+bbq chicken wrap,Wraps,9.29,Korean BBQ House,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/wrap.png
+pop bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+iced tea bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+juice bottle,Cold Beverages,2.45,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+gatorade,Cold Beverages,2.75,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+monster energy,Cold Beverages,3.5,Korean BBQ House,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+famous star burger,Burgers,5.49,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+western bacon burger,Burgers,6.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+portobello burger,Burgers,7.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+superstar burger,Burgers,7.39,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+hawaiian burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+the big carl burger,Burgers,7.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+original angus burger,Burgers,7.69,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+western bacon angus burger,Burgers,8.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+el diablo angus burger,Burgers,8.59,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+guacamole bacon angus burger,Burgers,8.29,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+super bacon angus burger,Burgers,8.19,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+lettuce wrap angus burger,Burgers,7.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;Gluten Free,add $4 for a combo which includes a medium drink and fries,images/burger.png
+chicken club burger,Burgers,6.89,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+hawaiian chicken burger,Burgers,6.49,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+lettuce wrap chicken club burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free; Gluten Free,add $4 for a combo which includes a medium drink and fries,images/burger.png
+honey mustard fillet chicken burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+buttermilk ranch fillet chicken burger,Burgers,6.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+bacon swiss crispy fillet chicken burger,Burgers,7.99,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/burger.png
+3 piece chicken tenders,Snacks,5.79,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/snack.png
+5 piece chicken tenders,Snacks,7.29,Carl's Jr,Lactose Free; Nut Free; Seafood Free;,add $4 for a combo which includes a medium drink and fries,images/snack.png
+small original blend dark roast,Hot Beverages,1.54,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in decaf,images/hot beverage.png
+medium original blend dark roast,Hot Beverages,1.76,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large original blend dark roast,Hot Beverages,1.92,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+x-large original blend dark roast,Hot Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small steeped tea,Hot Beverages,1.54,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+medium steeped tea,Hot Beverages,1.76,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+large steeped tea,Hot Beverages,1.92,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+x-large steeped tea,Hot Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/hot beverage.png
+small hot chocolate,Hot Beverages,1.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium hot chocolate,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large hot chocolate,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+x-large hot chocolate,Hot Beverages,2.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small french vanilla ,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium french vanilla ,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large french vanilla ,Hot Beverages,2.49,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+x-large french vanilla ,Hot Beverages,2.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small coffee mocha,Hot Beverages,1.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+medium coffee mocha,Hot Beverages,1.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+large coffee mocha,Hot Beverages,2.19,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+x-large coffee mocha,Hot Beverages,2.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/hot beverage.png
+small premium icecapp,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",images/cold beverage.png
+medium premium icecapp,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",images/cold beverage.png
+large premium icecapp,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in mocha, caramel and vanilla",images/cold beverage.png
+small classic icecapp,Cold Beverages,2.49,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,images/cold beverage.png
+medium classic icecapp,Cold Beverages,2.99,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,images/cold beverage.png
+large classic icecapp,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in original and light,images/cold beverage.png
+small creamy chill,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,images/cold beverage.png
+medium creamy chill,Cold Beverages,3.79,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,images/cold beverage.png
+large creamy chill,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,available in chocolate and vanilla,images/cold beverage.png
+small smoothie,Cold Beverages,3.09,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",images/cold beverage.png
+medium smoothie,Cold Beverages,3.59,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",images/cold beverage.png
+large smoothie,Cold Beverages,4.39,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,"available in strawberry, banana and mixed berry",images/cold beverage.png
+small frozen lemonade,Cold Beverages,1.79,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,available in original and raspberry,images/cold beverage.png
+medium frozen lemonade,Cold Beverages,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+large frozen lemonade,Cold Beverages,2.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/cold beverage.png
+pop bottle,Cold Beverages,2.49,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,"coke, sprite and canada dry available",images/cold beverage.png
+white milk,Cold Beverages,1.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/cold beverage.png
+chocolate milk,Cold Beverages,1.69,Tim Hortons,Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian,,images/cold beverage.png
+juice bottle,Cold Beverages,1.99,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,apple and orange available,images/cold beverage.png
+spicy thai soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free;Seafood Free;Gluten Free; ,,images/soup.png
+harvest vegetable soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/soup.png
+tomato parmesan soup,Soups,3.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;Vegan,,images/soup.png
+chili ,Soups,4.79,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free,,images/soup.png
+potato wedges,Snacks,2.19,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Gluten Free; Vegetarian;,,images/snack.png
+hash brown,Snacks,1.59,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian;,,images/snack.png
+classic bagel,Snacks,1.49,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian,add cream cheese for $0.80,images/snack.png
+speciality bagel,Snacks,1.99,Tim Hortons,Lactose Free; Nut Free; Halal; Seafood Free;Vegetarian,add cream cheese for $0.80,images/snack.png
