@@ -66,16 +66,21 @@ public class ItemCSV {
         }
         return filteredList;
     }
-   
-    public static ArrayList<FoodItem> foodRestrictionFilter(ArrayList<FoodItem> source, String restriction) {
+
+    public static ArrayList<FoodItem> foodRestrictionFilter(ArrayList<FoodItem> source, String restriction)
+    {
         ArrayList<FoodItem> filteredList = new ArrayList<>();
     
         for (int i = 0; i < source.size(); i++)
         {
-        FoodItem checkItem = new FoodItem(source.get(i));
-            if (checkItem.getRestriction().equals(restriction))
+            FoodItem checkItem = new FoodItem(source.get(i));
+            String[] restrictionList = checkItem.getRestriction().split(";");
+            for(int k = 0; k < restrictionList.length; k++)
             {
+                if(restrictionList[k].equals(restriction))
+                {
                 filteredList.add(checkItem);
+                }
             }
         }
         return filteredList;
@@ -131,8 +136,8 @@ public class ItemCSV {
         ArrayList<FoodItem> original = test.getFoodList();
         ArrayList<FoodItem> updatedList = new ArrayList<>(original);
         // updatedList = priceFilter(updatedList,2,4);
-        // updatedList = foodRestrictionFilter(updatedList,"Halal");
-        // updatedList = foodTypeFilter(updatedList,"Burgers");
+        updatedList = foodRestrictionFilter(updatedList,"Vegan");
+        // updatedList = foodTypeFilter(updatedList,"Cold Beverages");
         // updatedList = storeFilter(updatedList, "A & W");
         // updatedList = searchFilter(updatedList, "baNaNa");
 

@@ -2,6 +2,8 @@ import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.stage.Stage;
+import java.io.File;
+import java.util.ArrayList;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -14,14 +16,18 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.TextField;
+import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.MenuButton;
 import javafx.scene.control.MenuItem;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.text.Font;
 import javafx.scene.paint.Color;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 
 public class MainGUI extends Application {
     private ItemCSV foodItems;
@@ -30,8 +36,10 @@ public class MainGUI extends Application {
     private Scene resultsMenu = null;
     private Scene itemMenu = null;
 
+    private VBox itemScroller = new VBox();
+
     private ObservableList<String> restrictions = FXCollections.observableArrayList(
-        "None", "Halal", "Vegetarian", "Vegan", "Lactose Intolerant", "Gluten Free", "Nut Free", "Seafood Free");
+        "None", "Halal", "Vegetarian", "Vegan", "Lactose Free", "Gluten Free", "Nut Free", "Seafood Free");
 
     public static void main(String[] args) {
         launch(args);   
@@ -50,7 +58,7 @@ public class MainGUI extends Application {
 
         // Sizes
         int labelWidth = 140;
-        int textBoxWidth = 250;
+        int textBoxWidth = 200;
 
         // Store Search Field
         TextField storeField = new TextField();
@@ -132,12 +140,6 @@ public class MainGUI extends Application {
         resArea.getChildren().addAll(restrictionsLabel, resButton);
         resArea.setPadding(new Insets(0, 0, 0, 10));
 
-
-        // Search Button Action
-        searchButton.setOnAction(event -> {
-            primaryStage.setScene(resultsMenu);
-        });
-
         // Grouping
         GridPane mainMenuGroup = new GridPane();
         mainMenuGroup.add(searchBars, 0, 0);
@@ -145,6 +147,7 @@ public class MainGUI extends Application {
         mainMenuGroup.add(searchButton, 0, 2);
         mainMenuGroup.setAlignment(Pos.CENTER);
         mainMenuGroup.setVgap(30);
+        mainMenuGroup.setPadding(new Insets(120, 0, 0, 0));
 
         mainMenu = new Scene(mainMenuGroup, 640, 940);
         mainMenu.getStylesheets().addAll(this.getClass().getResource("mainmenu.css").toExternalForm());
@@ -152,24 +155,84 @@ public class MainGUI extends Application {
         // ----- Create Results Menu -----
 
         Button backButton = new Button();
-        backButton.setMinWidth(70);
-        backButton.setMinHeight(40);
+        backButton.setMinWidth(81);
+        backButton.setMinHeight(55);
+        backButton.setStyle("-fx-background-image: url('back_button.png')");
         backButton.setOnAction(event -> {
             primaryStage.setScene(mainMenu);
         });
 
         HBox resultsTop = new HBox();
         resultsTop.getChildren().addAll(backButton);
+        resultsTop.setPadding(new Insets(0, 0, 50, 0));
+        resultsTop.setAlignment(Pos.TOP_LEFT);
+        resultsTop.setMinHeight(230);
+        resultsTop.setMaxHeight(230);
+
+        ScrollPane scrollMenu = new ScrollPane();
+        scrollMenu.setMinWidth(583);
+        scrollMenu.setMaxWidth(583);
+        scrollMenu.setMinHeight(612);
+        scrollMenu.setMaxHeight(612);
+        scrollMenu.setHbarPolicy(ScrollBarPolicy.NEVER);
+        scrollMenu.setVbarPolicy(ScrollBarPolicy.ALWAYS);
+        scrollMenu.setPadding(new Insets(0, 29, 0, 29));
+
+        // Scroller Area
+
+        // Search Button Action (From Main Menu)
+        searchButton.setOnAction(event -> {
+            itemScroller = new VBox();
+
+            Double low = Double.parseDouble(priceFieldLow.getText());
+            Double high = Double.parseDouble(priceFieldHigh.getText());
+
+            ArrayList<FoodItem> itemsToList = ItemCSV.priceFilter(foodItems.getFoodList(), low, high);
+
+            for (int i = 0; i < itemsToList.size(); i++) {
+                FoodItem currentItem = itemsToList.get(i);
+    
+                HBox itemBox = new HBox();
+                itemBox.setAlignment(Pos.CENTER_LEFT);
+                itemBox.setMinWidth(583);
+                itemBox.setMaxWidth(583);
+    
+                Image itemImage = new Image("images/bbq.png");
+                ImageView itemImageView = new ImageView(itemImage);
+    
+                Label itemLabel = new Label(currentItem.getName());
+                itemLabel.setAlignment(Pos.CENTER_LEFT);
+                itemLabel.setMinWidth(340);
+                itemLabel.setMaxWidth(340);
+                itemLabel.setPadding(new Insets(0, 0, 0, 10));
+    
+                Label itemPrice = new Label(String.format("$%.2f", currentItem.getPrice()));
+                itemPrice.setAlignment(Pos.CENTER_RIGHT);
+    
+                itemBox.getChildren().addAll(itemImageView, itemLabel, itemPrice);
+    
+                itemScroller.getChildren().add(itemBox);
+            }
+
+            scrollMenu.setContent(itemScroller);
+            primaryStage.setScene(resultsMenu);
+        });
+
+        
 
         GridPane resultsGroup = new GridPane();
         resultsGroup.add(resultsTop, 0, 0);
+        resultsGroup.add(scrollMenu, 0, 1);
+        resultsGroup.setAlignment(Pos.BOTTOM_CENTER);
+        resultsGroup.setPadding(new Insets(0, 0, 75, 0));
         resultsMenu = new Scene(resultsGroup, 640, 940);
-        resultsMenu.getStylesheets().addAll(this.getClass().getResource("mainmenu.css").toExternalForm());
+        resultsMenu.getStylesheets().addAll(this.getClass().getResource("results.css").toExternalForm());
 
         // Add grouping to scene and add it to the stage.
         primaryStage.setScene(mainMenu);
-        primaryStage.setTitle("Test");
+        primaryStage.setTitle("UGrab");
         primaryStage.setResizable(false);
         primaryStage.show();
     }
+
 }
