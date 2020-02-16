@@ -41,6 +41,14 @@ public class MainGUI extends Application {
     private ObservableList<String> restrictions = FXCollections.observableArrayList(
         "None", "Halal", "Vegetarian", "Vegan", "Lactose Free", "Gluten Free", "Nut Free", "Seafood Free");
 
+    private ObservableList<String> restaurants = FXCollections.observableArrayList(
+        "None", "Bake Chef", "Oriental Wok", "A & W", "Coffee Company", "Korean BBQ House", "Carl's Jr", "Tim Hortons"
+    );
+
+    private ObservableList<String> foodTypes = FXCollections.observableArrayList(
+        "None", "Baked Goods", "BBQ", "Breakfast", "Burgers", "Cold Beverages", "Hot Beverages", "Combo", "Seafood", "Pizza", "Soups", "Subs", "Wraps", "Snacks", "Sweets"
+    );
+
     public static void main(String[] args) {
         launch(args);   
     }
@@ -61,8 +69,11 @@ public class MainGUI extends Application {
         int textBoxWidth = 200;
 
         // Store Search Field
-        TextField storeField = new TextField();
-        storeField.setPrefWidth(textBoxWidth);
+        // TextField storeField = new TextField();
+        // storeField.setPrefWidth(textBoxWidth);
+
+        ComboBox<String> storeField = new ComboBox<>(restaurants);
+        storeField.setMinWidth(labelWidth);
 
         Label storeLabel = new Label("Store Name: ");
         storeLabel.setAlignment(Pos.CENTER_RIGHT);
@@ -89,8 +100,8 @@ public class MainGUI extends Application {
         priceBox.setAlignment(Pos.CENTER);
 
         // Food Type Search Field
-        TextField foodTypeField = new TextField();
-        foodTypeField.setPrefWidth(textBoxWidth);
+        ComboBox<String> foodTypeField = new ComboBox<>(foodTypes);
+        foodTypeField.setMinWidth(labelWidth);
 
         Label foodTypeLabel = new Label("Food Type: ");
         foodTypeLabel.setAlignment(Pos.CENTER_RIGHT);
@@ -184,10 +195,30 @@ public class MainGUI extends Application {
         searchButton.setOnAction(event -> {
             itemScroller = new VBox();
 
-            Double low = Double.parseDouble(priceFieldLow.getText());
-            Double high = Double.parseDouble(priceFieldHigh.getText());
+            ArrayList<FoodItem> itemsToList = foodItems.getFoodList();
 
-            ArrayList<FoodItem> itemsToList = ItemCSV.priceFilter(foodItems.getFoodList(), low, high);
+            // Check the inputs
+            if (!foodNameField.getText().isEmpty()) {
+                itemsToList = ItemCSV.searchFilter(itemsToList, foodNameField.getText());
+            }
+            if (resButton.getValue() != null && !resButton.getValue().isEmpty()) {
+                itemsToList = ItemCSV.foodRestrictionFilter(itemsToList, resButton.getValue());
+            }
+            if (storeField.getValue() != null && !storeField.getValue().isEmpty()) {
+                itemsToList = ItemCSV.storeFilter(itemsToList, storeField.getValue());
+            }
+            if (foodTypeField.getValue() != null && !foodTypeField.getValue().isEmpty()) {
+                itemsToList = ItemCSV.foodTypeFilter(itemsToList, foodTypeField.getValue());
+            } 
+            if (priceFieldLow.getText().isEmpty() && priceFieldHigh.getText().isEmpty()) {
+
+            } else if (priceFieldLow.getText().isEmpty() && !priceFieldHigh.getText().isEmpty()) {
+                itemsToList = ItemCSV.priceFilter(itemsToList, 0, Double.parseDouble(priceFieldHigh.getText()));
+            } else if (!priceFieldLow.getText().isEmpty() && priceFieldHigh.getText().isEmpty()) {
+                itemsToList = ItemCSV.priceFilter(itemsToList, Double.parseDouble(priceFieldLow.getText()), 1000);
+            } else if (priceFieldLow.getText().isEmpty() && priceFieldHigh.getText().isEmpty()) {
+                itemsToList = ItemCSV.priceFilter(itemsToList, Double.parseDouble(priceFieldLow.getText()), Double.parseDouble(priceFieldHigh.getText()));
+            }
 
             for (int i = 0; i < itemsToList.size(); i++) {
                 FoodItem currentItem = itemsToList.get(i);
@@ -218,8 +249,6 @@ public class MainGUI extends Application {
             primaryStage.setScene(resultsMenu);
         });
 
-        
-
         GridPane resultsGroup = new GridPane();
         resultsGroup.add(resultsTop, 0, 0);
         resultsGroup.add(scrollMenu, 0, 1);
@@ -228,7 +257,7 @@ public class MainGUI extends Application {
         resultsMenu = new Scene(resultsGroup, 640, 940);
         resultsMenu.getStylesheets().addAll(this.getClass().getResource("results.css").toExternalForm());
 
-        // Add grouping to scene and add it to the stage.
+        // Add grouping to scene and add it to the stage
         primaryStage.setScene(mainMenu);
         primaryStage.setTitle("UGrab");
         primaryStage.setResizable(false);

@@ -77,7 +77,8 @@ public class ItemCSV {
             String[] restrictionList = checkItem.getRestriction().split(";");
             for(int k = 0; k < restrictionList.length; k++)
             {
-                if(restrictionList[k].equals(restriction))
+                // System.out.println(restrictionList[k]);
+                if(restrictionList[k].contains(restriction))
                 {
                 filteredList.add(checkItem);
                 }
@@ -123,7 +124,7 @@ public class ItemCSV {
         for (int i = 0; i < source.size(); i++)
         {
             FoodItem checkItem = new FoodItem(source.get(i));
-            if(checkItem.getName().toLowerCase().equals(search.toLowerCase()))
+            if(checkItem.getName().toLowerCase().contains(search.toLowerCase()))
             {  
                 filteredList.add(checkItem);
             }
@@ -131,15 +132,19 @@ public class ItemCSV {
         return filteredList;
     }
 
+    public int length() {
+        return this.getFoodList().size();
+    }
+
     public static void main(String[] args) {
         ItemCSV test = new ItemCSV("items.csv");
         ArrayList<FoodItem> original = test.getFoodList();
         ArrayList<FoodItem> updatedList = new ArrayList<>(original);
         // updatedList = priceFilter(updatedList,2,4);
-        updatedList = foodRestrictionFilter(updatedList,"Vegan");
+        updatedList = foodRestrictionFilter(updatedList,"Nut Free");
         // updatedList = foodTypeFilter(updatedList,"Cold Beverages");
-        // updatedList = storeFilter(updatedList, "A & W");
-        // updatedList = searchFilter(updatedList, "baNaNa");
+        updatedList = storeFilter(updatedList, "A & W");
+        // updatedList = searchFilter(updatedList, "cookie");
 
         for(int i = 0; i < updatedList.size(); i++)
         {
