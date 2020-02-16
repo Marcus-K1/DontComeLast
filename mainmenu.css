@@ -1,16 +1,34 @@
 .root {
-    -fx-background-image: url("duck.jpeg");
+    -fx-background-image: url("main_menu.png");
     -fx-background-repeat: stretch;   
-    -fx-background-size: 900 506;
+    -fx-background-size: 640 940;
     -fx-background-position: center center;
     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
 }
 
+.scroll-pane{
+    -fx-background-color:transparent;
+ }
+
+ .scroll-pane > .viewport {  
+    -fx-background-color: transparent;
+ }
+
+/** Size the combo-box button. */
+.combo-box {
+    -fx-pref-width: 200;
+}
+
+/** Size the combo-box drop down list. */
+.combo-box-popup > .list-view {
+    -fx-pref-width: 200;
+}
+
 .label {
-    -fx-font-size: 11pt;
+    -fx-font-size: 15pt;
     -fx-font-family: "Segoe UI Semibold";
     -fx-text-fill: white;
-    -fx-opacity: 0.6;
+    -fx-opacity: 1;
 }
 
 .label-bright {
@@ -106,12 +124,13 @@
     -fx-padding: 5 22 5 22;   
     -fx-border-color: #e2e2e2;
     -fx-border-width: 2;
-    -fx-background-radius: 0;
-    -fx-background-color: #1d1d1d;
+    -fx-background-color: #9e9e9e;
     -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-    -fx-font-size: 11pt;
-    -fx-text-fill: #d8d8d8;
+    -fx-font-size: 15pt;
+    -fx-text-fill: #ffffff;
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
 }
 
 .button:hover {
@@ -132,7 +151,7 @@
 }
 
 .button:disabled, .button:default:disabled {
-    -fx-opacity: 0.4;
+    -fx-opacity: 1.0;
     -fx-background-color: #1d1d1d;
     -fx-text-fill: white;
 }
@@ -140,6 +159,7 @@
 .button:default {
     -fx-background-color: -fx-focus-color;
     -fx-text-fill: #ffffff;
+    -fx-opacity: 1.0;
 }
 
 .button:default:hover {
