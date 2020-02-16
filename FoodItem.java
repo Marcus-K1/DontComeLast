@@ -13,6 +13,14 @@ public class FoodItem {
         this.restriction = restriction;
     }
 
+    public FoodItem(FoodItem copy) {
+        this.name = copy.getName();
+        this.price = copy.getPrice();
+        this.type = copy.getType();
+        this.storeName = copy.getStoreName();
+        this.restriction = copy.getRestriction();
+    }
+
     public String getName() {
         return this.name;
     }

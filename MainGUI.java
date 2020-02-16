@@ -17,21 +17,23 @@ import javafx.scene.control.Label;
 import javafx.scene.text.Font;
 import javafx.scene.paint.Color;
 
-
 public class MainGUI extends Application {
+    private ItemCSV foodItems;
+
     public static void main(String[] args) {
         launch(args);
     }
 
     public void init() {
-        FoodItem test = new FoodItem("name", 5.00, "type", "storeName", "restriction");
-        System.out.println(test);
+        foodItems = new ItemCSV("items.csv");
+        System.out.println(foodItems.getFoodItem(47).toString());
     }
 
     public void start(Stage primaryStage) throws Exception {
-
         Stage window = new Stage();
-        window.setTitle("Big Chungus");
+        Scene mainMenu;
+        Scene resultsMenu;
+        Scene itemMenu;
 
         // Set Font
         Font f1 = new Font("Arial", 14);
@@ -49,7 +51,6 @@ public class MainGUI extends Application {
         storeLabel.setAlignment(Pos.CENTER_RIGHT);
         storeLabel.setMinWidth(labelWidth);
         storeLabel.setFont(f1);
-        storeLabel.setTextFill(Color.web("#ffffff"));
 
         HBox storeBox = new HBox();
         storeBox.getChildren().addAll(storeLabel, storeField);
@@ -65,7 +66,6 @@ public class MainGUI extends Application {
         priceLabel.setAlignment(Pos.CENTER_RIGHT);
         priceLabel.setMinWidth(labelWidth);
         priceLabel.setFont(f1);
-        priceLabel.setTextFill(Color.web("#ffffff"));
 
         HBox priceBox = new HBox();
         priceBox.getChildren().addAll(priceLabel, priceFieldLow, priceFieldHigh);
@@ -79,7 +79,6 @@ public class MainGUI extends Application {
         foodTypeLabel.setAlignment(Pos.CENTER_RIGHT);
         foodTypeLabel.setMinWidth(labelWidth);
         foodTypeLabel.setFont(f1);
-        foodTypeLabel.setTextFill(Color.web("#ffffff"));
 
         HBox foodTypeBox = new HBox();
         foodTypeBox.getChildren().addAll(foodTypeLabel, foodTypeField);
@@ -93,7 +92,6 @@ public class MainGUI extends Application {
         foodNameLabel.setAlignment(Pos.CENTER_RIGHT);
         foodNameLabel.setMinWidth(labelWidth);
         foodNameLabel.setFont(f1);
-        foodNameLabel.setTextFill(Color.web("#ffffff"));
 
         HBox foodNameBox = new HBox();
         foodNameBox.getChildren().addAll(foodNameLabel, foodNameField);
@@ -102,6 +100,7 @@ public class MainGUI extends Application {
         // Create group of all Search Bars
         VBox searchBars = new VBox();
         searchBars.getChildren().addAll(foodNameBox, storeBox, priceBox, foodTypeBox);
+        searchBars.setSpacing(30);
         searchBars.setAlignment(Pos.CENTER);
 
         Button searchButton = new Button("Search");
@@ -112,17 +111,14 @@ public class MainGUI extends Application {
             System.out.println("test");
         });
 
-
         // Grouping
         GridPane mainMenuGroup = new GridPane();
         mainMenuGroup.add(searchBars, 0, 0);
         mainMenuGroup.add(searchButton, 0, 1);
         mainMenuGroup.setAlignment(Pos.CENTER); 
+        mainMenuGroup.setVgap(30);
 
-        // mainMenuGroup.setTop();
-        // root.setBottom(bottom);
-
-        Scene mainMenu = new Scene(mainMenuGroup, 640, 940);
+        mainMenu = new Scene(mainMenuGroup, 640, 940);
         mainMenu.getStylesheets().addAll(this.getClass().getResource("mainmenu.css").toExternalForm());
 
         // Add grouping to scene and add it to the stage.
