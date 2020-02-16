@@ -1,4 +1,6 @@
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.stage.Stage;
 
 import javafx.event.ActionEvent;
@@ -13,7 +15,11 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.MenuButton;
+import javafx.scene.control.MenuItem;
 import javafx.scene.text.Font;
 import javafx.scene.paint.Color;
 
@@ -24,13 +30,15 @@ public class MainGUI extends Application {
     private Scene resultsMenu = null;
     private Scene itemMenu = null;
 
+    private ObservableList<String> restrictions = FXCollections.observableArrayList(
+        "None", "Halal", "Vegetarian", "Vegan", "Lactose Intolerant", "Gluten Free", "Nut Free", "Seafood Free");
+
     public static void main(String[] args) {
-        launch(args);
+        launch(args);   
     }
 
     public void init() {
         foodItems = new ItemCSV("items.csv");
-        System.out.println(foodItems.getFoodItem(47).toString());
     }
 
     public void start(Stage primaryStage) throws Exception {
@@ -41,8 +49,8 @@ public class MainGUI extends Application {
         String fontStyle = "-fx-font: 14 arial";
 
         // Sizes
-        int labelWidth = 100;
-        int textBoxWidth = 154;
+        int labelWidth = 140;
+        int textBoxWidth = 250;
 
         // Store Search Field
         TextField storeField = new TextField();
@@ -108,6 +116,24 @@ public class MainGUI extends Application {
         searchButton.setMinWidth(labelWidth + textBoxWidth);
         searchButton.setMinHeight(50);
         searchButton.setStyle(fontStyle);
+
+
+        // Restriction Area
+        Label restrictionsLabel = new Label("Restrictions: ");
+        foodNameLabel.setAlignment(Pos.CENTER_RIGHT);
+        foodNameLabel.setMinWidth(labelWidth);
+        foodNameLabel.setFont(f1);
+
+        ComboBox<String> resButton = new ComboBox<>(restrictions);
+        resButton.setMinWidth(labelWidth);
+
+        HBox resArea = new HBox();
+        resArea.setAlignment(Pos.CENTER);
+        resArea.getChildren().addAll(restrictionsLabel, resButton);
+        resArea.setPadding(new Insets(0, 0, 0, 10));
+
+
+        // Search Button Action
         searchButton.setOnAction(event -> {
             primaryStage.setScene(resultsMenu);
         });
@@ -115,8 +141,9 @@ public class MainGUI extends Application {
         // Grouping
         GridPane mainMenuGroup = new GridPane();
         mainMenuGroup.add(searchBars, 0, 0);
-        mainMenuGroup.add(searchButton, 0, 1);
-        mainMenuGroup.setAlignment(Pos.CENTER); 
+        mainMenuGroup.add(resArea, 0, 1);
+        mainMenuGroup.add(searchButton, 0, 2);
+        mainMenuGroup.setAlignment(Pos.CENTER);
         mainMenuGroup.setVgap(30);
 
         mainMenu = new Scene(mainMenuGroup, 640, 940);
@@ -124,10 +151,20 @@ public class MainGUI extends Application {
 
         // ----- Create Results Menu -----
 
-        GridPane resultsGroup = new GridPane();
+        Button backButton = new Button();
+        backButton.setMinWidth(70);
+        backButton.setMinHeight(40);
+        backButton.setOnAction(event -> {
+            primaryStage.setScene(mainMenu);
+        });
 
+        HBox resultsTop = new HBox();
+        resultsTop.getChildren().addAll(backButton);
+
+        GridPane resultsGroup = new GridPane();
+        resultsGroup.add(resultsTop, 0, 0);
         resultsMenu = new Scene(resultsGroup, 640, 940);
-        
+        resultsMenu.getStylesheets().addAll(this.getClass().getResource("mainmenu.css").toExternalForm());
 
         // Add grouping to scene and add it to the stage.
         primaryStage.setScene(mainMenu);

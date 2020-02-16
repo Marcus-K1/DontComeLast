@@ -52,8 +52,94 @@ public class ItemCSV {
         return copy;
     }
 
+    public static ArrayList<FoodItem> priceFilter(ArrayList<FoodItem> source, double min, double max)
+    {
+        ArrayList<FoodItem> filteredList = new ArrayList<>();
+   
+        for (int i = 0; i < source.size(); i++)
+        {
+            FoodItem checkItem = new FoodItem(source.get(i));
+            if(checkItem.getPrice() <= max && checkItem.getPrice() >= min )
+            {  
+                filteredList.add(checkItem);
+            }
+        }
+        return filteredList;
+    }
+   
+    public static ArrayList<FoodItem> foodRestrictionFilter(ArrayList<FoodItem> source, String restriction) {
+        ArrayList<FoodItem> filteredList = new ArrayList<>();
+    
+        for (int i = 0; i < source.size(); i++)
+        {
+        FoodItem checkItem = new FoodItem(source.get(i));
+            if (checkItem.getRestriction().equals(restriction))
+            {
+                filteredList.add(checkItem);
+            }
+        }
+        return filteredList;
+    }
+   
+    public static ArrayList<FoodItem> foodTypeFilter(ArrayList<FoodItem> source, String foodType)
+    {
+        ArrayList<FoodItem> filteredList = new ArrayList<>();
+    
+        for (int i = 0; i < source.size(); i++)
+        {
+            FoodItem checkItem = new FoodItem(source.get(i));
+            if(checkItem.getType().equals(foodType))
+            {
+                filteredList.add(checkItem);
+            }
+        }
+        return filteredList;
+    }
+   
+    public static ArrayList<FoodItem> storeFilter(ArrayList<FoodItem> source, String store)
+    {
+        ArrayList<FoodItem> filteredList = new ArrayList<>();
+   
+        for (int i = 0; i < source.size(); i++)
+        {
+            FoodItem checkItem = new FoodItem(source.get(i));
+            if(checkItem.getStoreName().equals(store))
+            {  
+                filteredList.add(checkItem);
+            }
+        }
+        return filteredList;
+    }
+   
+    public static ArrayList<FoodItem> searchFilter(ArrayList<FoodItem> source, String search)
+    {
+        ArrayList<FoodItem> filteredList = new ArrayList<>();
+   
+        for (int i = 0; i < source.size(); i++)
+        {
+            FoodItem checkItem = new FoodItem(source.get(i));
+            if(checkItem.getName().toLowerCase().equals(search.toLowerCase()))
+            {  
+                filteredList.add(checkItem);
+            }
+        }
+        return filteredList;
+    }
+
     public static void main(String[] args) {
         ItemCSV test = new ItemCSV("items.csv");
-        System.out.println(test.getFoodItem(0).toString());
+        ArrayList<FoodItem> original = test.getFoodList();
+        ArrayList<FoodItem> updatedList = new ArrayList<>(original);
+        // updatedList = priceFilter(updatedList,2,4);
+        // updatedList = foodRestrictionFilter(updatedList,"Halal");
+        // updatedList = foodTypeFilter(updatedList,"Burgers");
+        // updatedList = storeFilter(updatedList, "A & W");
+        // updatedList = searchFilter(updatedList, "baNaNa");
+
+        for(int i = 0; i < updatedList.size(); i++)
+        {
+            System.out.println(updatedList.get(i).toString());
+        }
     }
+ 
 }
