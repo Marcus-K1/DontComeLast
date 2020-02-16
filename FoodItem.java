@@ -4,6 +4,7 @@ public class FoodItem {
     private String type;
     private String storeName;
     private String restriction;
+    private String image = "images/burger.png";
 
     public FoodItem(String name, double price, String type, String storeName, String restriction) {
         this.name = name;
@@ -13,12 +14,22 @@ public class FoodItem {
         this.restriction = restriction;
     }
 
+    public FoodItem(String name, double price, String type, String storeName, String restriction, String image) {
+        this.name = name;
+        this.price = price;
+        this.type = type;
+        this.storeName = storeName;
+        this.restriction = restriction;
+        this.image = image;
+    }
+
     public FoodItem(FoodItem copy) {
         this.name = copy.getName();
         this.price = copy.getPrice();
         this.type = copy.getType();
         this.storeName = copy.getStoreName();
         this.restriction = copy.getRestriction();
+        this.image = copy.getImage();
     }
 
     public String getName() {
@@ -33,7 +44,16 @@ public class FoodItem {
             ", type='" + getType() + "'" +
             ", storeName='" + getStoreName() + "'" +
             ", restriction='" + getRestriction() + "'" +
+            ", image='" + getImage() + "'" +
             "}";
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public String getImage() {
+        return this.image;
     }
 
 

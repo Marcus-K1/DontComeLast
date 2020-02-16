@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Collections;
 
 public class ItemCSV {
     private String filename = "";
@@ -25,7 +26,7 @@ public class ItemCSV {
                 
                 String restrictions = row.length < 5 ? "All" : row[4];
 
-                FoodItem item = new FoodItem(row[0], Double.parseDouble(row[2]), row[1], row[3], restrictions);
+                FoodItem item = new FoodItem(row[0], Double.parseDouble(row[2]), row[1], row[3], restrictions, row[6]);
                 itemNames.add(item);
             }
         } catch (IOException e) {
@@ -77,8 +78,7 @@ public class ItemCSV {
             String[] restrictionList = checkItem.getRestriction().split(";");
             for(int k = 0; k < restrictionList.length; k++)
             {
-                // System.out.println(restrictionList[k]);
-                if(restrictionList[k].contains(restriction))
+                if(restrictionList[k].equals(restriction))
                 {
                 filteredList.add(checkItem);
                 }
@@ -131,25 +131,59 @@ public class ItemCSV {
         }
         return filteredList;
     }
-
-    public int length() {
-        return this.getFoodList().size();
+    
+    public static void highestToLowest(ArrayList<FoodItem> source)
+    {
+    	for (int i = 0; i < source.size(); i++)
+    	{
+    		int largestIndex = i;
+    		
+    		for(int j = i; j < source.size(); j++)
+    		{
+    			if(source.get(largestIndex).getPrice() < source.get(j).getPrice())
+    			{
+    				largestIndex = j;
+    			}
+    		}
+    		Collections.swap(source,largestIndex,i);
+    	}
+    }
+    
+    public static void lowestToHighest(ArrayList<FoodItem> source)
+    {
+    	for (int i = 0; i < source.size(); i++)
+    	{
+    		int largestIndex = i;
+    		
+    		for(int j = i; j < source.size(); j++)
+    		{
+    			if(source.get(largestIndex).getPrice() > source.get(j).getPrice())
+    			{
+    				largestIndex = j;
+    			}
+    		}
+    		Collections.swap(source,largestIndex,i);
+    	}
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         ItemCSV test = new ItemCSV("items.csv");
         ArrayList<FoodItem> original = test.getFoodList();
         ArrayList<FoodItem> updatedList = new ArrayList<>(original);
-        // updatedList = priceFilter(updatedList,2,4);
-        updatedList = foodRestrictionFilter(updatedList,"Nut Free");
-        // updatedList = foodTypeFilter(updatedList,"Cold Beverages");
-        updatedList = storeFilter(updatedList, "A & W");
-        // updatedList = searchFilter(updatedList, "cookie");
+        //updatedList = priceFilter(updatedList,2,4);
+        updatedList = foodRestrictionFilter(updatedList,"Vegan");
+        // updatedList = foodTypeFilter(updatedList,"Sweets");
+    //    updatedList = storeFilter(updatedList, "A & W");
+        //updatedList = searchFilter(updatedList, "baNaNa");
+        lowestToHighest(updatedList);
 
         for(int i = 0; i < updatedList.size(); i++)
         {
             System.out.println(updatedList.get(i).toString());
+            System.out.println(updatedList.get(i).getImage());
         }
     }
  
 }
+

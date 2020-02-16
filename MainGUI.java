@@ -13,8 +13,10 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.Node;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.Button;
@@ -39,7 +41,8 @@ public class MainGUI extends Application {
     private VBox itemScroller = new VBox();
 
     private ObservableList<String> restrictions = FXCollections.observableArrayList(
-        "None", "Halal", "Vegetarian", "Vegan", "Lactose Free", "Gluten Free", "Nut Free", "Seafood Free");
+        "None", "Halal", "Vegetarian", "Vegan", "Lactose Free", "Gluten Free", "Nut Free", "Seafood Free"
+    );
 
     private ObservableList<String> restaurants = FXCollections.observableArrayList(
         "None", "Bake Chef", "Oriental Wok", "A & W", "Coffee Company", "Korean BBQ House", "Carl's Jr", "Tim Hortons"
@@ -48,6 +51,17 @@ public class MainGUI extends Application {
     private ObservableList<String> foodTypes = FXCollections.observableArrayList(
         "None", "Baked Goods", "BBQ", "Breakfast", "Burgers", "Cold Beverages", "Hot Beverages", "Combo", "Seafood", "Pizza", "Soups", "Subs", "Wraps", "Snacks", "Sweets"
     );
+
+    private ObservableList<String> sortings = FXCollections.observableArrayList(
+        "Low to High", "High to Low"
+    );
+
+    private ArrayList<FoodItem> currentItemList = new ArrayList<>();
+
+    private ScrollPane scrollMenu = new ScrollPane();
+    private ComboBox<String> sortingComboBox = new ComboBox<>(sortings);
+
+    private String currentItemName = "";
 
     public static void main(String[] args) {
         launch(args);   
@@ -86,9 +100,12 @@ public class MainGUI extends Application {
 
         // Price Search Fields
         TextField priceFieldLow = new TextField();
-        priceFieldLow.setPrefWidth(textBoxWidth / 2);
+        priceFieldLow.setPrefWidth(textBoxWidth / 2 - 16);
         TextField priceFieldHigh = new TextField();
-        priceFieldHigh.setPrefWidth(textBoxWidth / 2);
+        priceFieldHigh.setPrefWidth(textBoxWidth / 2 - 16);
+
+        Label toLabel = new Label(" to ");
+        toLabel.setAlignment(Pos.CENTER);
 
         Label priceLabel = new Label("Price Range: ");
         priceLabel.setAlignment(Pos.CENTER_RIGHT);
@@ -96,7 +113,7 @@ public class MainGUI extends Application {
         priceLabel.setFont(f1);
 
         HBox priceBox = new HBox();
-        priceBox.getChildren().addAll(priceLabel, priceFieldLow, priceFieldHigh);
+        priceBox.getChildren().addAll(priceLabel, priceFieldLow, toLabel, priceFieldHigh);
         priceBox.setAlignment(Pos.CENTER);
 
         // Food Type Search Field
@@ -177,10 +194,9 @@ public class MainGUI extends Application {
         resultsTop.getChildren().addAll(backButton);
         resultsTop.setPadding(new Insets(0, 0, 50, 0));
         resultsTop.setAlignment(Pos.TOP_LEFT);
-        resultsTop.setMinHeight(230);
-        resultsTop.setMaxHeight(230);
+        resultsTop.setMinHeight(190);
+        resultsTop.setMaxHeight(190);
 
-        ScrollPane scrollMenu = new ScrollPane();
         scrollMenu.setMinWidth(583);
         scrollMenu.setMaxWidth(583);
         scrollMenu.setMinHeight(612);
@@ -193,21 +209,19 @@ public class MainGUI extends Application {
 
         // Search Button Action (From Main Menu)
         searchButton.setOnAction(event -> {
-            itemScroller = new VBox();
-
             ArrayList<FoodItem> itemsToList = foodItems.getFoodList();
 
             // Check the inputs
             if (!foodNameField.getText().isEmpty()) {
                 itemsToList = ItemCSV.searchFilter(itemsToList, foodNameField.getText());
             }
-            if (resButton.getValue() != null && !resButton.getValue().isEmpty()) {
+            if (resButton.getValue() != null && !resButton.getValue().isEmpty() && !resButton.getValue().equals("None")) {
                 itemsToList = ItemCSV.foodRestrictionFilter(itemsToList, resButton.getValue());
             }
-            if (storeField.getValue() != null && !storeField.getValue().isEmpty()) {
+            if (storeField.getValue() != null && !storeField.getValue().isEmpty() && !storeField.getValue().equals("None")) {
                 itemsToList = ItemCSV.storeFilter(itemsToList, storeField.getValue());
             }
-            if (foodTypeField.getValue() != null && !foodTypeField.getValue().isEmpty()) {
+            if (foodTypeField.getValue() != null && !foodTypeField.getValue().isEmpty() && !foodTypeField.getValue().equals("None")) {
                 itemsToList = ItemCSV.foodTypeFilter(itemsToList, foodTypeField.getValue());
             } 
             if (priceFieldLow.getText().isEmpty() && priceFieldHigh.getText().isEmpty()) {
@@ -220,48 +234,112 @@ public class MainGUI extends Application {
                 itemsToList = ItemCSV.priceFilter(itemsToList, Double.parseDouble(priceFieldLow.getText()), Double.parseDouble(priceFieldHigh.getText()));
             }
 
-            for (int i = 0; i < itemsToList.size(); i++) {
-                FoodItem currentItem = itemsToList.get(i);
-    
-                HBox itemBox = new HBox();
-                itemBox.setAlignment(Pos.CENTER_LEFT);
-                itemBox.setMinWidth(583);
-                itemBox.setMaxWidth(583);
-    
-                Image itemImage = new Image("images/bbq.png");
-                ImageView itemImageView = new ImageView(itemImage);
-    
-                Label itemLabel = new Label(currentItem.getName());
-                itemLabel.setAlignment(Pos.CENTER_LEFT);
-                itemLabel.setMinWidth(340);
-                itemLabel.setMaxWidth(340);
-                itemLabel.setPadding(new Insets(0, 0, 0, 10));
-    
-                Label itemPrice = new Label(String.format("$%.2f", currentItem.getPrice()));
-                itemPrice.setAlignment(Pos.CENTER_RIGHT);
-    
-                itemBox.getChildren().addAll(itemImageView, itemLabel, itemPrice);
-    
-                itemScroller.getChildren().add(itemBox);
-            }
+            currentItemList = itemsToList;
+            ItemCSV.lowestToHighest(currentItemList);
+            sortingComboBox.setValue("Low to High");
+            updater(primaryStage);
 
-            scrollMenu.setContent(itemScroller);
             primaryStage.setScene(resultsMenu);
         });
 
+        sortingComboBox.setMinWidth(labelWidth);
+        sortingComboBox.setOnAction(e -> {
+            if (sortingComboBox.getValue().equals("Low to High")) {
+                ItemCSV.lowestToHighest(currentItemList);
+            } else if (sortingComboBox.getValue().equals("High to Low")) {
+                ItemCSV.highestToLowest(currentItemList);
+            }
+
+            updater(primaryStage);
+        });
+
+        HBox sortingGroup = new HBox();
+        sortingGroup.setMinWidth(583);
+        sortingGroup.setMaxWidth(583);
+        sortingGroup.getChildren().add(sortingComboBox);
+        sortingGroup.setAlignment(Pos.CENTER_RIGHT);
+        sortingGroup.setPadding(new Insets(0, 50, 10, 0));
+
+
         GridPane resultsGroup = new GridPane();
         resultsGroup.add(resultsTop, 0, 0);
-        resultsGroup.add(scrollMenu, 0, 1);
+        resultsGroup.add(sortingGroup, 0, 1);
+        resultsGroup.add(scrollMenu, 0, 2);
         resultsGroup.setAlignment(Pos.BOTTOM_CENTER);
         resultsGroup.setPadding(new Insets(0, 0, 75, 0));
         resultsMenu = new Scene(resultsGroup, 640, 940);
         resultsMenu.getStylesheets().addAll(this.getClass().getResource("results.css").toExternalForm());
+
+        // ----- Item Manu -----
+
+        Button itemBackButton = new Button();
+        itemBackButton.setMinWidth(81);
+        itemBackButton.setMinHeight(55);
+        itemBackButton.setStyle("-fx-background-image: url('back_button.png')");
+        itemBackButton.setOnAction(event -> {
+            primaryStage.setScene(resultsMenu);
+        });
+
+        GridPane itemMenuGroup = new GridPane();
+        itemMenuGroup.add(itemBackButton, 0, 0);
+        itemMenuGroup.setAlignment(Pos.TOP_LEFT);
+        itemMenuGroup.setPadding(new Insets(27, 0, 0, 29));
+
+        itemMenu = new Scene(itemMenuGroup, 640, 940);
+        itemMenu.getStylesheets().addAll(this.getClass().getResource("itemmenu.css").toExternalForm());
+
 
         // Add grouping to scene and add it to the stage
         primaryStage.setScene(mainMenu);
         primaryStage.setTitle("UGrab");
         primaryStage.setResizable(false);
         primaryStage.show();
+    }
+
+    public void updater(Stage primaryStage) {
+        ArrayList<FoodItem> itemsToList = currentItemList;
+
+        itemScroller = new VBox();
+        for (int i = 0; i < itemsToList.size(); i++) {
+            FoodItem currentItem = itemsToList.get(i);
+
+            HBox itemBox = new HBox();
+            itemBox.setAlignment(Pos.CENTER_LEFT);
+            itemBox.setMinWidth(583);
+            itemBox.setMaxWidth(583);   
+            Image itemImage = new Image(currentItem.getImage());
+            ImageView itemImageView = new ImageView(itemImage);
+
+            VBox itemFullLabel = new VBox();
+            itemFullLabel.setAlignment(Pos.CENTER_LEFT);
+            itemFullLabel.setMinWidth(340);
+            itemFullLabel.setMaxWidth(340);
+            itemFullLabel.setPadding(new Insets(0, 0, 0, 10));
+            
+            Label itemLabel = new Label(currentItem.getName());
+            itemLabel.setAlignment(Pos.CENTER_LEFT);
+            itemLabel.setStyle("-fx-font-size: 20; -fx-font-family: 'Segoe UI Semibold';");
+
+            Label itemLabelStoreName = new Label(currentItem.getStoreName());
+            itemLabelStoreName.setAlignment(Pos.CENTER_LEFT);
+            itemLabelStoreName.setStyle("-fx-font: 15 arial;");
+
+            itemFullLabel.getChildren().addAll(itemLabel, itemLabelStoreName);
+
+            Label itemPrice = new Label(String.format("$%.2f", currentItem.getPrice()));
+            itemPrice.setAlignment(Pos.CENTER_RIGHT);
+            itemPrice.setStyle("-fx-font-size: 23; -fx-font-family: 'Segoe UI Semibold'; -fx-text-fill: #f38a00;");
+
+            itemBox.getChildren().addAll(itemImageView, itemFullLabel, itemPrice);
+            itemBox.setOnMousePressed(e -> {
+                primaryStage.setScene(itemMenu);
+                currentItemName = ((Label)((VBox)itemBox.getChildren().get(1)).getChildren().get(0)).getText();
+            });
+
+            itemScroller.getChildren().add(itemBox);
+        }
+
+        scrollMenu.setContent(itemScroller);
     }
 
 }
