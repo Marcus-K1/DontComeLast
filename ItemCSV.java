@@ -44,6 +44,14 @@ public class ItemCSV {
         return new FoodItem(itemNames.get(index));
     }
 
+    public ArrayList<FoodItem> getFoodList() {
+        ArrayList<FoodItem> copy = new ArrayList<>();
+        for (int i = 0; i < itemNames.size(); i++) {
+            copy.add(new FoodItem(itemNames.get(i)));
+        }
+        return copy;
+    }
+
     public static void main(String[] args) {
         ItemCSV test = new ItemCSV("items.csv");
         System.out.println(test.getFoodItem(0).toString());

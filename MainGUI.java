@@ -19,6 +19,10 @@ import javafx.scene.paint.Color;
 
 public class MainGUI extends Application {
     private ItemCSV foodItems;
+    
+    private Scene mainMenu = null;
+    private Scene resultsMenu = null;
+    private Scene itemMenu = null;
 
     public static void main(String[] args) {
         launch(args);
@@ -30,10 +34,7 @@ public class MainGUI extends Application {
     }
 
     public void start(Stage primaryStage) throws Exception {
-        Stage window = new Stage();
-        Scene mainMenu;
-        Scene resultsMenu;
-        Scene itemMenu;
+        // ----- Create Main Menu -----
 
         // Set Font
         Font f1 = new Font("Arial", 14);
@@ -108,7 +109,7 @@ public class MainGUI extends Application {
         searchButton.setMinHeight(50);
         searchButton.setStyle(fontStyle);
         searchButton.setOnAction(event -> {
-            System.out.println("test");
+            primaryStage.setScene(resultsMenu);
         });
 
         // Grouping
@@ -120,6 +121,13 @@ public class MainGUI extends Application {
 
         mainMenu = new Scene(mainMenuGroup, 640, 940);
         mainMenu.getStylesheets().addAll(this.getClass().getResource("mainmenu.css").toExternalForm());
+
+        // ----- Create Results Menu -----
+
+        GridPane resultsGroup = new GridPane();
+
+        resultsMenu = new Scene(resultsGroup, 640, 940);
+        
 
         // Add grouping to scene and add it to the stage.
         primaryStage.setScene(mainMenu);
